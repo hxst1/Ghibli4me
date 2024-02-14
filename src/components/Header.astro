@@ -1,0 +1,18 @@
+---
+import Icon from "heroicons-astro/Heroicon.astro";
+---
+
+<header class="shadow-md fixed left-0 right-0 z-10 backdrop-blur bg-white/40">
+    <nav class="flex justify-center sm:justify-between items-center py-3 px-3 max-w-4xl m-auto">
+        <h1 class="font-bold"><a href="/">スタジオジブリ</a></h1>
+
+        <div class="items-center justify-center hidden sm:flex">
+            <a class="flex items-center justify-center text-black mx-4" href="/about">
+                <Icon iconCode="user" iconStyle="outline" customClasses="h-5 w-5 mr-2" />About
+            </a>
+            <a class="flex items-center justify-center text-black mx-4" href="/gallery">
+                <Icon iconCode="folder-open" iconStyle="outline" customClasses="h-5 w-5 mr-2" />Gallery
+            </a>
+        </div>
+    </nav>
+</header>

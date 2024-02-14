@@ -1,0 +1,14 @@
+---
+interface Props {
+    underLine: string;
+}
+
+const { underLine } = Astro.props;
+---
+
+<div class="p-5 flex items-center justify-center">
+    <p class={`mx-2 md:mx-4 text-sm md:text-base ${underLine === 'films' && 'underline'}`}><a href="/">Films</a></p>
+    <p class={`mx-2 md:mx-4 text-sm md:text-base ${underLine === 'people' && 'underline'}`}><a href="/people">People</a></p>
+    <p class={`mx-2 md:mx-4 text-sm md:text-base ${underLine === 'locations' && 'underline'}`}><a href="/locations">Locations</a></p>
+    <p class={`mx-2 md:mx-4 text-sm md:text-base ${underLine === 'species' && 'underline'}`}><a href="/species">Species</a></p>
+</div>
