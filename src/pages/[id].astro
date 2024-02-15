@@ -13,7 +13,7 @@ export function getStaticPaths() {
 const { film } = Astro.props;
 ---
 
-<Layout title={film.original_title} description={film.description}>
+<Layout title={`${film.title} | ${film.original_title}`} description={film.description}>
     <NavigationDetails prevPage={film.page_navigation.prev} nextPage={film.page_navigation.next} />
     <div class="py-8 px-4">
         <div class="hidden sm:flex sm:flex-row">
