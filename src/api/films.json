@@ -12,7 +12,11 @@
       "producer": "Isao Takahata",
       "release_date": "1986",
       "running_time": "124",
-      "rt_score": "95"
+      "rt_score": "95",
+      "page_navigation": {
+        "prev": "ebbd1ec1-3d74-4912-ac3c-07b28231705c",
+        "next": "12cfb892-aac0-4c5b-94af-521852e46d6a"
+      }
     },
     {
       "id": "12cfb892-aac0-4c5b-94af-521852e46d6a",
@@ -26,7 +30,11 @@
       "producer": "Toru Hara",
       "release_date": "1988",
       "running_time": "89",
-      "rt_score": "97"
+      "rt_score": "97",
+      "page_navigation": {
+          "prev": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+          "next": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+      }
     },
     {
       "id": "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
@@ -39,7 +47,12 @@
       "director": "Hayao Miyazaki",
       "producer": "Hayao Miyazaki",
       "release_date": "1988",
-      "running_time": "86"
+      "running_time": "86",
+      "rt_score": "93",
+      "page_navigation": {
+          "prev": "12cfb892-aac0-4c5b-94af-521852e46d6a",
+          "next": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e"
+      }
     },
     {
       "id": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
@@ -53,7 +66,11 @@
       "producer": "Hayao Miyazaki",
       "release_date": "1989",
       "running_time": "102",
-      "rt_score": "96"
+      "rt_score": "96",
+      "page_navigation": {
+          "prev": "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
+          "next": "4e236f34-b981-41c3-8c65-f8c9000b94e7"
+      }
     },
     {
       "id": "4e236f34-b981-41c3-8c65-f8c9000b94e7",
@@ -67,7 +84,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "1991",
       "running_time": "118",
-      "rt_score": "100"
+      "rt_score": "100",
+      "page_navigation": {
+          "prev": "ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
+          "next": "ebbb6b7c-945c-41ee-a792-de0e43191bd8"
+      }
     },
     {
       "id": "ebbb6b7c-945c-41ee-a792-de0e43191bd8",
@@ -81,7 +102,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "1992",
       "running_time": "93",
-      "rt_score": "94"
+      "rt_score": "94",
+      "page_navigation": {
+          "prev": "4e236f34-b981-41c3-8c65-f8c9000b94e7",
+          "next": "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c"
+      }
     },
     {
       "id": "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c",
@@ -95,7 +120,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "1994",
       "running_time": "119",
-      "rt_score": "78"
+      "rt_score": "78",
+      "page_navigation": {
+          "prev": "ebbb6b7c-945c-41ee-a792-de0e43191bd8",
+          "next": "ff24da26-a969-4f0e-ba1e-a122ead6c6e3"
+      }
     },
     {
       "id": "ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
@@ -109,7 +138,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "1995",
       "running_time": "111",
-      "rt_score": "91"
+      "rt_score": "91",
+      "page_navigation": {
+          "prev": "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c",
+          "next": "0440483e-ca0e-4120-8c50-4c8cd9b965d6"
+      }
     },
     {
       "id": "0440483e-ca0e-4120-8c50-4c8cd9b965d6",
@@ -123,7 +156,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "1997",
       "running_time": "134",
-      "rt_score": "92"
+      "rt_score": "92",
+      "page_navigation": {
+          "prev": "ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
+          "next": "45204234-adfd-45cb-a505-a8e7a676b114"
+      }
     },
     {
       "id": "45204234-adfd-45cb-a505-a8e7a676b114",
@@ -137,7 +174,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "1999",
       "running_time": "104",
-      "rt_score": "75"
+      "rt_score": "75",
+      "page_navigation": {
+          "prev": "0440483e-ca0e-4120-8c50-4c8cd9b965d6",
+          "next": "dc2e6bd1-8156-4886-adff-b39e6043af0c"
+      }
     },
     {
       "id": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
@@ -151,7 +192,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2001",
       "running_time": "124",
-      "rt_score": "97"
+      "rt_score": "97",
+      "page_navigation": {
+          "prev": "45204234-adfd-45cb-a505-a8e7a676b114",
+          "next": "90b72513-afd4-4570-84de-a56c312fdf81"
+      }
     },
     {
       "id": "90b72513-afd4-4570-84de-a56c312fdf81",
@@ -165,7 +210,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2002",
       "running_time": "75",
-      "rt_score": "89"
+      "rt_score": "89",
+      "page_navigation": {
+          "prev": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
+          "next": "cd3d059c-09f4-4ff3-8d63-bc765a5184fa"
+      }
     },
     {
       "id": "cd3d059c-09f4-4ff3-8d63-bc765a5184fa",
@@ -179,7 +228,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2004",
       "running_time": "119",
-      "rt_score": "87"
+      "rt_score": "87",
+      "page_navigation": {
+          "prev": "90b72513-afd4-4570-84de-a56c312fdf81",
+          "next": "112c1e67-726f-40b1-ac17-6974127bb9b9"
+      }
     },
     {
       "id": "112c1e67-726f-40b1-ac17-6974127bb9b9",
@@ -193,7 +246,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2006",
       "running_time": "116",
-      "rt_score": "41"
+      "rt_score": "41",
+      "page_navigation": {
+          "prev": "cd3d059c-09f4-4ff3-8d63-bc765a5184fa",
+          "next": "758bf02e-3122-46e0-884e-67cf83df1786"
+      }
     },
     {
       "id": "758bf02e-3122-46e0-884e-67cf83df1786",
@@ -207,7 +264,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2008",
       "running_time": "100",
-      "rt_score": "92"
+      "rt_score": "92",
+      "page_navigation": {
+          "prev": "112c1e67-726f-40b1-ac17-6974127bb9b9",
+          "next": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6"
+      }
     },
     {
       "id": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6",
@@ -221,7 +282,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2010",
       "running_time": "94",
-      "rt_score": "95"
+      "rt_score": "95",
+      "page_navigation": {
+          "prev": "758bf02e-3122-46e0-884e-67cf83df1786",
+          "next": "45db04e4-304a-4933-9823-33f389e8d74d"
+      }
     },
     {
       "id": "45db04e4-304a-4933-9823-33f389e8d74d",
@@ -235,7 +300,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2011",
       "running_time": "91",
-      "rt_score": "83"
+      "rt_score": "83",
+      "page_navigation": {
+          "prev": "2de9426b-914a-4a06-a3a0-5e6d9d3886f6",
+          "next": "67405111-37a5-438f-81cc-4666af60c800"
+      }
     },
     {
       "id": "67405111-37a5-438f-81cc-4666af60c800",
@@ -249,7 +318,11 @@
       "producer": "Toshio Suzuki",
       "release_date": "2013",
       "running_time": "126",
-      "rt_score": "89"
+      "rt_score": "89",
+      "page_navigation": {
+          "prev": "45db04e4-304a-4933-9823-33f389e8d74d",
+          "next": "578ae244-7750-4d9f-867b-f3cd3d6fecf4"
+      }
     },
     {
       "id": "578ae244-7750-4d9f-867b-f3cd3d6fecf4",
@@ -263,7 +336,11 @@
       "producer": "Yoshiaki Nishimura",
       "release_date": "2013",
       "running_time": "137",
-      "rt_score": "100"
+      "rt_score": "100",
+      "page_navigation": {
+          "prev": "67405111-37a5-438f-81cc-4666af60c800",
+          "next": "5fdfb320-2a02-49a7-94ff-5ca418cae602"
+      }
     },
     {
       "id": "5fdfb320-2a02-49a7-94ff-5ca418cae602",
@@ -277,7 +354,11 @@
       "producer": "Yoshiaki Nishimura",
       "release_date": "2014",
       "running_time": "103",
-      "rt_score": "92"
+      "rt_score": "92",
+      "page_navigation": {
+          "prev": "578ae244-7750-4d9f-867b-f3cd3d6fecf4",
+          "next": "d868e6ec-c44a-405b-8fa6-f7f0f8cfb500"
+      }
     },
     {
       "id": "d868e6ec-c44a-405b-8fa6-f7f0f8cfb500",
@@ -291,7 +372,11 @@
       "producer": "Toshio Suzuki, Isao Takahata, Vincent Maraval, Pascal Caucheteux, Grégoire Sorlat",
       "release_date": "2016",
       "running_time": "80",
-      "rt_score": "93"
+      "rt_score": "93",
+      "page_navigation": {
+          "prev": "5fdfb320-2a02-49a7-94ff-5ca418cae602",
+          "next": "790e0028-a31c-4626-a694-86b7a8cada40"
+      }
     },
     {
       "id": "790e0028-a31c-4626-a694-86b7a8cada40",
@@ -305,21 +390,29 @@
       "producer": "Toshio Suzuki",
       "release_date": "2021",
       "running_time": "82",
-      "rt_score": "30"
+      "rt_score": "30",
+      "page_navigation": {
+          "prev": "d868e6ec-c44a-405b-8fa6-f7f0f8cfb500",
+          "next": "ebbd1ec1-3d74-4912-ac3c-07b28231705c"
+      }
     },
     {
       "id": "ebbd1ec1-3d74-4912-ac3c-07b28231705c",
       "title": "The Boy and the Heron",
       "original_title": "君たちはどう生きるか",
       "original_title_romanised": "Kimitachi wa Dō Ikiru ka",
-      "image": "https://pics.filmaffinity.com/kimitachi_wa_do_ikiru_ka-917153869-large.jpg",
+      "image": "https://cdn.myanimelist.net/images/anime/1644/140262l.jpg",
       "movie_banner": "URL_banner_pendiente",
       "description": "A young man named Mahito, who longs for his mother, ventures into a world shared by the living and the dead. There, death comes to an end and life finds a new beginning. A semi-autobiographical fantasy about life, death, and creation, as a tribute to friendship, from the mind of Hayao Miyazaki.",
       "director": "Hayao Miyazaki",
       "producer": "Toshio Suzuki",
       "release_date": "2023",
       "running_time": "124",
-      "rt_score": "97"
+      "rt_score": "97",
+        "page_navigation": {
+            "prev": "790e0028-a31c-4626-a694-86b7a8cada40",
+            "next": "2baf70d1-42bb-4437-b551-e5fed5a87abe"
+        }
     }
   ]
 }

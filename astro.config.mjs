@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   prefetch: {
-    defaultStrategy: 'load'
+    defaultStrategy: 'viewport'
   }
 });

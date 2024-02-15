@@ -4,20 +4,16 @@ import NavigationFilter from "../components/NavigationFilter.astro";
 import { films } from "../api/films.json";
 ---
 
-<Layout title="スタジオジブリ" description="Recopilación from Studio Ghibli">
+<Layout title="Studio Ghibli | スタジオジブリ" description="Recopilation from Studio Ghibli">
     <NavigationFilter underLine="films" />
     <div class="container mx-auto px-4 py-8">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {films.map((film) => (
-                    <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
-                        <img class="w-auto h-auto lg:h-[400px] object-cover" src={film.image} alt={film.title} loading="lazy" />
-                        <div class="p-6">
-                            <h2 class="font-semibold text-xl mb-2 text-gray-800">{film.title}</h2>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="text-xs font-semibold py-0.5">Score: {film.rt_score}%</span>
-                            </div>
-                        </div>
+                <a href={`/${film.id}`} class="flex">
+                    <div class="bg-indigo-100 rounded-md shadow-md hover:shadow-indigo-200">
+                        <img src={film.image} alt={film.title} class="w-full h-auto rounded-md shadow" loading="lazy" />
                     </div>
+                </a>
             ))}
         </div>
     </div>

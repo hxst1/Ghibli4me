@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { films }  from "../api/films.json";
+import NavigationDetails from "../components/NavigationDetails.astro";
+
+export function getStaticPaths() {
+    return films.map(film => ({
+        params: { id: film.id },
+        props: { film }
+    }));
+}
+
+const { film } = Astro.props;
+---
+
+<Layout title={film.original_title} description={film.description}>
+    <NavigationDetails prevPage={film.page_navigation.prev} nextPage={film.page_navigation.next} />
+    <div class="py-8 px-4">
+        <div class="hidden sm:flex sm:flex-row">
+            <img src={film.image} alt={`Poster of ${film.title}`} class="flex-none w-auto h-[400px] rounded-lg shadow-md" />
+            <div class="ml-6">
+                <h2 class="text-2xl font-bold">{film.title}</h2>
+                <p class="text-md text-gray-500">{film.original_title_romanised} ({film.original_title})</p>
+                <p class="mt-4">{film.description}</p>
+                <div class="mt-4">
+                    <h3 class="font-semibold">Director: <span class="font-normal">{film.director}</span></h3>
+                    <h3 class="font-semibold">Producer: <span class="font-normal">{film.producer}</span></h3>
+                    <h3 class="font-semibold">Release Date: <span class="font-normal">{film.release_date}</span></h3>
+                    <h3 class="font-semibold">Running Time: <span class="font-normal">{film.running_time} mins</span></h3>
+                    <h3 class="font-semibold">Rotten Tomatoes Score: <span class="font-normal">{film.rt_score}%</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="sm:hidden">
+            <h2 class="text-2xl font-bold text-center">{film.title}</h2>
+            <p class="text-md text-gray-500 text-center">{film.original_title_romanised} ({film.original_title})</p>
+            <img src={film.image} alt={`Poster of ${film.title}`} class="w-64 h-auto m-auto rounded-lg shadow-md my-4" />
+            <p>{film.description}</p>
+            <div class="mt-4">
+                <h3 class="font-semibold">Director: <span class="font-normal">{film.director}</span></h3>
+                <h3 class="font-semibold">Producer: <span class="font-normal">{film.producer}</span></h3>
+                <h3 class="font-semibold">Release Date: <span class="font-normal">{film.release_date}</span></h3>
+                <h3 class="font-semibold">Running Time: <span class="font-normal">{film.running_time} mins</span></h3>
+                <h3 class="font-semibold">Rotten Tomatoes Score: <span class="font-normal">{film.rt_score}%</span></h3>
+            </div>
+        </div>
+    </div>
+</Layout>

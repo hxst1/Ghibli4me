@@ -1,0 +1,14 @@
+---
+interface Props {
+    prevPage: string;
+    nextPage: string;
+}
+
+const { prevPage, nextPage } = Astro.props;
+---
+
+<div class="p-5 flex items-center justify-center">
+    <p class="mx-2 md:mx-4 text-sm md:text-base hover:underline"><a href={`/${prevPage}`}>{"<"} Preview Page</a></p>
+    <span class="mx-2 md:mx-4 text-sm md:text-base">|</span>
+    <p class="mx-2 md:mx-4 text-sm md:text-base hover:underline" ><a href={`/${nextPage}`}>Next Page {">"}</a></p>
+</div>
