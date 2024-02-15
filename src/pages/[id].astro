@@ -17,7 +17,11 @@ const { film } = Astro.props;
     <NavigationDetails prevPage={film.page_navigation.prev} nextPage={film.page_navigation.next} />
     <div class="py-8 px-4">
         <div class="hidden sm:flex sm:flex-row">
-            <img src={film.image} alt={`Poster of ${film.title}`} class="flex-none w-auto h-[400px] rounded-lg shadow-md" />
+            <img src={film.image}
+                 srcset={film.srcset}
+                 alt={film.title}
+                 class="flex-none w-auto h-[400px] rounded-lg shadow-md"
+                 loading="lazy" />
             <div class="ml-6">
                 <h2 class="text-2xl font-bold">{film.title}</h2>
                 <p class="text-md text-gray-500">{film.original_title_romanised} ({film.original_title})</p>
@@ -34,7 +38,11 @@ const { film } = Astro.props;
         <div class="sm:hidden">
             <h2 class="text-2xl font-bold text-center">{film.title}</h2>
             <p class="text-md text-gray-500 text-center">{film.original_title_romanised} ({film.original_title})</p>
-            <img src={film.image} alt={`Poster of ${film.title}`} class="w-64 h-auto m-auto rounded-lg shadow-md my-4" />
+            <img src={film.image}
+                 srcset={film.srcset}
+                 alt={film.title}
+                 class="w-auto h-auto m-auto rounded-lg shadow-md my-4"
+                 loading="lazy" />
             <p>{film.description}</p>
             <div class="mt-4">
                 <h3 class="font-semibold">Director: <span class="font-normal">{film.director}</span></h3>

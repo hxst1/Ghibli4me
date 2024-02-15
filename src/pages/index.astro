@@ -7,11 +7,15 @@ import { films } from "../api/films.json";
 <Layout title="Studio Ghibli | スタジオジブリ" description="Recopilation from Studio Ghibli">
     <NavigationFilter underLine="films" />
     <div class="container mx-auto px-4 py-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {films.map((film) => (
-                <a href={`/${film.id}`} class="flex">
+                <a href={`/${film.id}`} class="flex items-center justify-center">
                     <div class="bg-indigo-100 rounded-md shadow-md hover:shadow-indigo-200">
-                        <img src={film.image} alt={film.title} class="w-full h-auto rounded-md shadow" loading="lazy" />
+                        <img src={film.image}
+                             srcset={film.srcset}
+                             alt={film.title}
+                             class="w-full h-auto rounded-md shadow"
+                             loading="lazy" />
                     </div>
                 </a>
             ))}
